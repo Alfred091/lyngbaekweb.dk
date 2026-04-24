@@ -181,6 +181,7 @@ async function submitForm(){
     if(res.ok){
       document.getElementById('form-fields').style.display='none';
       document.getElementById('form-success').style.display='block';
+      gtag('event', 'conversion', {'send_to': 'AW-18076271196/ODbRCKOM7ZgcENyEuKtD', 'value': 1.0, 'currency': 'DKK'});
     }else{
       alert('Noget gik galt — skriv direkte til kontakt@lyngbaekweb.dk');
       btn.textContent='Send forespørgsel →';
